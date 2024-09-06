@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+}
+
+main {
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+header nav {
+  display: flex;
+  gap: 15px
+}
+
+div.entry {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+div.entry div.entrytext a {
+  text-decoration: none;
+}
+
+/* div.entryimage {
+  width: 150px; 
+  height: 150px; 
+} */
+
+div.entryimage img {
+  min-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+div.entrytext h2{
+  margin: 0px;
+  font-size: 1.8rem;
+}
+
+div.entrytext p.info {
+  margin: 6px 0;
+  color: #888;
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+}
+
+div.entrytext p.info span.rating {
+  color: #333;
+}
+
+div.entrytext p.summary {
+  margin: 10px 0;
+  line-height: 1.4rem
+}
+
+form.login, form.register {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px 10px;
+  border: 0;
+  border-bottom: 2px solid #ccc;
+}
+
+button {
+  width: 100%;
+  display: block;
+  background-color: #555;
+  border: 0;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+form.login h1 form.register h1{
+  text-align: center;
+}
+
+div.productpage h1 {
+  text-align: center;
+}
+
+.lastseen {
+  font-weight: bold
+}
+
+div.review h4 {
+  margin-bottom: 2px;
+}
+
+.reviewtext {
+  margin-left: 40px;
+}
+
+div.reviewtext p.summary {
+  margin-top: 2px;
+}
+
+div.reviewtext p.info {
+  font-size: small
+}
+
+.ratingradio {
+  display: flex;
+  flex-direction: row;
+  padding-right: 90%;
+}
